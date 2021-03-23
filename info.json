@@ -1,0 +1,14 @@
+{
+    "name": "k2-defanged",
+    "version": "1.1.0",
+    "title": "K2 Defanged",
+    "author": "InaccurateTank",
+    "homepage": "",
+    "factorio_version": "1.1",
+    "dependencies":
+    [
+      "base >= 1.1",
+      "Krastorio2"
+    ],
+    "description": "Overhaul of Krastorios overhaul of weapon damages because, frankly, it's entirely overpowered."
+  }
