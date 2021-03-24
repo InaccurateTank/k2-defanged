@@ -11,7 +11,6 @@ data.raw.projectile["pistol-ammo-1"].action.action_delivery.target_effects = {
             damage = {amount = 5, type = "physical"}
         }
     }
---[2].damage = {amount = 5, type = "physical"}
 data.raw.projectile["pistol-ammo-2"].action.action_delivery.target_effects = {
         {
             type = "create-entity",
@@ -22,7 +21,6 @@ data.raw.projectile["pistol-ammo-2"].action.action_delivery.target_effects = {
             damage = {amount = 10, type = "physical"}
         }
     }
---[2].damage = {amount = 10, type = "physical"}
 
 
 -- Rifle (Base Game 5, 10, 24)
@@ -36,7 +34,6 @@ data.raw.projectile["rifle-ammo-1"].action.action_delivery.target_effects = {
             damage = {amount = 5, type = "physical"}
         }
     }
---[2].damage = {amount = 5, type = "physical"}
 data.raw.projectile["rifle-ammo-2"].action.action_delivery.target_effects = {
         {
             type = "create-entity",
@@ -47,7 +44,6 @@ data.raw.projectile["rifle-ammo-2"].action.action_delivery.target_effects = {
             damage = {amount = 10, type = "physical"}
         }
     }
---[2].damage = {amount = 10, type = "physical"}
 data.raw.projectile["rifle-ammo-3"].action.action_delivery.target_effects = {
         {
             type = "create-entity",
@@ -62,8 +58,6 @@ data.raw.projectile["rifle-ammo-3"].action.action_delivery.target_effects = {
             damage = {amount = 5, type = "radioactive"}
         }
     }
---[2].damage = {amount = 15, type = "physical"}
---data.raw.projectile["rifle-ammo-3"].action.action_delivery.target_effects[3].damage = {amount = 5, type = "radioactive"}
 data.raw.projectile["rifle-ammo-4"].action.action_delivery.target_effects = {
         {
             type = "create-entity",
@@ -78,8 +72,6 @@ data.raw.projectile["rifle-ammo-4"].action.action_delivery.target_effects = {
             damage = {amount = 10, type = "laser"}
         }
     }
---[2].damage = {amount = 15, type = "physical"}
---data.raw.projectile["rifle-ammo-4"].action.action_delivery.target_effects[3].damage = {amount = 10, type = "laser"}
 
 
 -- AMR
@@ -89,14 +81,12 @@ data.raw.projectile["anti-material-rifle-1"].action.action_delivery.target_effec
             damage = {amount = 120, type = "physical"}
         }
     }
---[1].damage = {amount = 120, type = "physical"}
 data.raw.projectile["anti-material-rifle-ammo-2"].action.action_delivery.target_effects[2].action.action_delivery.target_effects = {
         {
             type = "damage",
             damage = {amount = 220, type = "physical"}
         }
     }
---[1].damage = {amount = 220, type = "physical"}
 data.raw.projectile["anti-material-rifle-ammo-3"].action.action_delivery.target_effects[2].action.action_delivery.target_effects = {
         {
             type = "damage",
@@ -107,8 +97,6 @@ data.raw.projectile["anti-material-rifle-ammo-3"].action.action_delivery.target_
             damage = {amount = 105, type = "radioactive"}
         }
     }
---[1].damage = {amount = 315, type = "physical"}
---data.raw.projectile["anti-material-rifle-ammo-3"].action.action_delivery.target_effects[2].action.action_delivery.target_effects[2].damage = {amount = 105, type = "radioactive"}
 data.raw.projectile["anti-material-rifle-ammo-4"].action.action_delivery.target_effects[2].action.action_delivery.target_effects = {
         {
             type = "damage",
@@ -123,9 +111,6 @@ data.raw.projectile["anti-material-rifle-ammo-4"].action.action_delivery.target_
             damage = {amount = 60, type = "radioactive"}
         }
     }
---[1].damage = {amount = 260, type = "physical"}
---data.raw.projectile["anti-material-rifle-ammo-4"].action.action_delivery.target_effects[2].action.action_delivery.target_effects[2].damage = {amount = 200, type = "laser"}
---data.raw.projectile["anti-material-rifle-ammo-4"].action.action_delivery.target_effects[2].action.action_delivery.target_effects[3].damage = {amount = 60, type = "radioactive"}
 
 -- Shotgun (Base Game 5, 8)
 -- data.raw.projectile["shotgun-pellet"].action.action_delivery.target_effects.damage = {amount = 6, type = "physical"}
